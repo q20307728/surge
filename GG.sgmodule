@@ -1,10 +1,14 @@
 #!name=个人自用去广告合集
-#!desc=信息面板
+#!desc=广告必须死
 #!system=ios
 #https://raw.githubusercontent.com/q20307728/surge/main/GG.sgmodule
 [General]
+[Rule]
+# 知乎广告拦截
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_remove_ads.list,REJECT
 force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
-
+[URL Rewrite]
+"^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time" - reject
 [Script]
 Rewrite: BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
 
