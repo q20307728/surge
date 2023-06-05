@@ -1,7 +1,7 @@
 #!name=个人自用去广告合集
 #!desc=广告必须死
 #!system=ios
-#https://raw.githubusercontent.com/q20307728/surge/main/GG.sgmodule
+#https://github.com/q20307728/xuwen/blob/main/Surge/GG.sgmodule
 [General]
 [Rule]
 #分流去广告
