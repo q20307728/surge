@@ -1,8 +1,7 @@
 #!name=个人自用去广告合集
 #!desc=广告必须死
 #!system=ios
-#https://github.com/q20307728/xuwen/blob/main/Surge/GG.sgmodule
-[General]
+#项目地址=https://github.com/q20307728/xuwen/blob/main/Surge/GG.sgmodule
 [Rule]
 #分流去广告
 # 知乎广告拦截
