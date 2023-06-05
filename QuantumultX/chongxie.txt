@@ -49,10 +49,6 @@ hostname = oneapph5.dongfeng-nissan.com.cn, wap.js.10086.cn, cds.wifi188.com, ho
 # >>>>>>>>>>>>>>> ✅ 5 ✅ <<<<<<<<<<<<<<
 
 
-# > 51信用卡管家
-^https?:\/\/api\.u51\.com\/(generic-config-gateway|rs-resys)\/api\/v\d\/(creditpage-config|recommend) url reject-200
-^https?:\/\/api\.u51\.com\/liabilitygateway\/api\/v\d\/homepage\/liabilityline url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/51card.js
-^https?:\/\/api\.u51\.com\/generic-config-gateway\/api\/v\d\/guanjia\/me-tab2\/config url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/51card.js
 
 # > 58
 ^https?:\/\/.+?\.58cdn\.com\.cn\/brandads\/ url reject-200
