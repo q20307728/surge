@@ -18,4 +18,4 @@
 ＞酷安_屏蔽热词
  ^https?:/l/apil.coolapkl.coml/v6l/searc hl?.*type=hotSearch data="https: //raw.gi thubusercontent.com/mieqq/mieqq/master/r eject-dict. ison
 [MITM]
-hostname = %INSERT% api.coolapk.com
+hostname = %INSERT% api.coolapk.com,10010.com.cn
