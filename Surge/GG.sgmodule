@@ -3,14 +3,12 @@
 #!system=ios
 #项目地址=https://raw.githubusercontent.com/q20307728/xuwen/main/Surge/GG.sgmodule
 [Rule]
-#分流去广告
 # 知乎广告拦截
 #RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_remove_ads.list,REJECT
 
 [URL Rewrite]
 #联通去广告
 "^https:\/\/m1\.ad\.10010\.com\/uniAdms_3\.0" - reject
-
 [Script]
 #酷安_推广广告
 coolapk_16 = type=http-response,pattern
@@ -19,7 +17,7 @@ st, requires-body=true, max-size=3145728
 script-path=https://github.com/ddgksf2
 013/Scripts/raw/master/coolapk.js, timeo
 u=60, script-update-interval=0
-＞酷安_首页广告Qddgksf2013
+＞酷安_首页广告
 coolapk_18 = type=http-response,pattern
 =^https?:\/\/api.coolapk.com\/v6\/main\/
 indexV8, requires-body=true, max-size=31
@@ -33,7 +31,7 @@ replyList, requires-body=true, max-size=
 3145728, script-path=https://github.com/
 ddgksf2013/Scripts/raw/master/coolapk.js
 timeout=60, script-update-interval=0
-＞酷安_商品推广Qddgksf2013
+＞酷安_商品推广
 coolapk_22 = type=http-response,pattern
 =^https?:\/\/api.coolapk.com\/v6\/feed\/
 detail, requires-body=true, max-size=314
