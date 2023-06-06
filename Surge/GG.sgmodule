@@ -19,24 +19,21 @@ script-path=https://github.com/ddgksf2
 013/Scripts/raw/master/coolapk.js, timeo
 u=60, script-update-interval=0
 ＞酷安_首页广告Qddgksf2013
-coolapk_18 = type=http-response,
-pattern
+coolapk_18 = type=http-response,pattern
 =^https?:\/\/api.coolapk.com\/v6\/main\/
 indexV8, requires-body=true, max-size=31
 45728, script-path=https://github.com/dd
 gksf2013/Scripts/raw/master/coolapk.js,
 timeout=60, script-update-interval=0
 ＞酷安_评论广告Qddgksf2013
-coolapk_20 = type=http-response,
-pattern
+coolapk_20 = type=http-response,pattern
 =^https?:\/\api.coolapk.com\/v6\/feed\/
 replyList, requires-body=true, max-size=
 3145728, script-path=https://github.com/
 ddgksf2013/Scripts/raw/master/coolapk.js
 timeout=60, script-update-interval=0
 ＞酷安_商品推广Qddgksf2013
-coolapk_22 = type=http-response,
-pattern
+coolapk_22 = type=http-response,pattern
 =^https?:\/\/api.coolapk.com\/v6\/feed\/
 detail, requires-body=true, max-size=314
 5728, script-path=https://github.com/ddg
