@@ -24,20 +24,19 @@ indexV8, requires-body=true, max-size=31
 45728, script-path=https://github.com/dd
 gksf2013/Scripts/raw/master/coolapk.js,
 timeout=60, script-update-interval=0
-＞酷安_评论广告Qddgksf2013
+＞酷安_评论广告
 coolapk_20 = type=http-response,pattern
 =^https?:\/\api.coolapk.com\/v6\/feed\/
 replyList, requires-body=true, max-size=
 3145728, script-path=https://github.com/
 ddgksf2013/Scripts/raw/master/coolapk.js
-timeout=60, script-update-interval=0
+,timeout=60, script-update-interval=0
 ＞酷安_商品推广
 coolapk_22 = type=http-response,pattern
 =^https?:\/\/api.coolapk.com\/v6\/feed\/
 detail, requires-body=true, max-size=314
 5728, script-path=https://github.com/ddg
-ksf2013/Scripts/raw/master/coolapk.js,
-timeout=60, script-update-interval=0
+ksf2013/Scripts/raw/master/coolapk.js,timeout=60, script-update-interval=0
 [MAP LOCAL]
 ＞酷安_屏蔽热词
  ^https?:/l/apil.coolapkl.coml/v6l/searc hl?.*type=hotSearch data="https: //raw.gi thubusercontent.com/mieqq/mieqq/master/r eject-dict. ison"
