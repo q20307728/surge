@@ -8,10 +8,11 @@
 #RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_remove_ads.list,REJECT
 
 [URL Rewrite]
+#联通去广告
 "^https:\/\/m1\.ad\.10010\.com\/uniAdms_3\.0" - reject
 
 [Script]
-＞酷安_推广广告@ddgksf2013
+#酷安_推广广告
 coolapk_16 = type=http-response,pattern
 =^https?:\/\/api.coolapk.com\/v6\/datali
 st, requires-body=true, max-size=3145728
