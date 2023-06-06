@@ -9,14 +9,12 @@
 #联通去广告
 "^https:\/\/m1\.ad\.10010\.com\/uniAdms_3\.0" - reject
 [Script]
-#酷安_推广广告
-coolapk_16 = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/datalist, requires-body=true, max-size=3145728script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, timeou=60, script-update-interval=0
-＞酷安_首页广告
-coolapk_18 = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/main\/indexV8, requires-body=true, max-size=3145728, script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js,timeout=60, script-update-interval=0
-＞酷安_评论广告
-coolapk_20 = type=http-response,pattern=^https?:\/\api.coolapk.com\/v6\/feed\/replyList, requires-body=true, max-size=3145728, script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js,timeout=60, script-update-interval=0
-＞酷安_商品推广
-coolapk_22 = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/feed\/detail, requires-body=true, max-size=3145728, script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js,timeout=60, script-update-interval=0
+#酷安去广告
+酷安去广告 = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/dataList,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
+酷安去广告 = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/main\/indexV8,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
+酷安去广告 = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/feed\/replyList,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
+酷安去广告 = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/feed\/detail,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
+
 [MAP LOCAL]
 ＞酷安_屏蔽热词
  ^https?:/l/apil.coolapkl.coml/v6l/searc hl?.*type=hotSearch data="https: //raw.gi thubusercontent.com/mieqq/mieqq/master/r eject-dict. ison
