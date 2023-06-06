@@ -105,6 +105,10 @@ hostname = api.coolapk.com, api-access.pangolin-sdk-toutiao.com, raw.githubuserc
 ^https?:\/\/storage\.360buyimg\.com\/kepler-app url reject-img
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s640x1136_jfs\/ url reject-img
 # >>>>>>>>>>>>>>> ✅ K ✅ <<<<<<<<<<<<<<
+# > 酷安
+^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/coolapk.js
+^https?://api-access\.pangolin-sdk-toutiao\.com/api/ad/union/sdk url reject
+^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
 # > 口袋银行
 ^https:\/\/cdn\.sdb\.com\.cn\/bron-coms\/bron-coms\/material-image\/.+.jpg url reject-200
 # >>>>>>>>>>>>>>> ✅ L ✅ <<<<<<<<<<<<<<
