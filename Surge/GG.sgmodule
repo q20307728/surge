@@ -11,7 +11,39 @@
 "^https:\/\/m1\.ad\.10010\.com\/uniAdms_3\.0" - reject
 
 [Script]
-# 脚本
-#cron "0 6 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js, tag=NASA每日一图
+＞酷安_推广广告@ddgksf2013
+coolapk_16 = type=http-response,pattern
+=^https?:\/\/api.coolapk.com\/v6\/datali
+st, requires-body=true, max-size=3145728
+script-path=https://github.com/ddgksf2
+013/Scripts/raw/master/coolapk.js, timeo
+u=60, script-update-interval=0
+＞酷安_首页广告Qddgksf2013
+coolapk_18 = type=http-response,
+pattern
+=^https?:\/\/api.coolapk.com\/v6\/main\/
+indexV8, requires-body=true, max-size=31
+45728, script-path=https://github.com/dd
+gksf2013/Scripts/raw/master/coolapk.js,
+timeout=60, script-update-interval=0
+＞酷安_评论广告Qddgksf2013
+coolapk_20 = type=http-response,
+pattern
+=^https?:\/\api.coolapk.com\/v6\/feed\/
+replyList, requires-body=true, max-size=
+3145728, script-path=https://github.com/
+ddgksf2013/Scripts/raw/master/coolapk.js
+timeout=60, script-update-interval=0
+＞酷安_商品推广Qddgksf2013
+coolapk_22 = type=http-response,
+pattern
+=^https?:\/\/api.coolapk.com\/v6\/feed\/
+detail, requires-body=true, max-size=314
+5728, script-path=https://github.com/ddg
+ksf2013/Scripts/raw/master/coolapk.js,
+timeout=60, script-update-interval=0
+[MAP LOCAL]
+＞酷安_屏蔽热词
+ ^https?:/l/apil.coolapkl.coml/v6l/searc hl?.*type=hotSearch data="https: //raw.gi thubusercontent.com/mieqq/mieqq/master/r eject-dict. ison"
 [MITM]
-hostname = %INSERT% m1.ad.10010.com
+hostname = %INSERT% m1.ad.10010.com,api.coolapk.com
