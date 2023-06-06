@@ -6,8 +6,7 @@
 
 
 [URL Rewrite]
-#联通去广告
-"^https:\/\/m1\.ad\.10010\.com\/uniAdms_3\.0" - reject
+
 [Script]
 #酷安去广告
 酷安去广告 = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/dataList,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
