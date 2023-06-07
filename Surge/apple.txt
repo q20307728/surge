@@ -138,3 +138,6 @@
 .www.apple.com.edgekey.net
 .www.apple.com
 .xp.apple.com
+.time.apple.com
+.experiments.apple.com
+configuration.is.apple.com
