@@ -140,4 +140,4 @@
 .xp.apple.com
 .time.apple.com
 .experiments.apple.com
-configuration.is.apple.com
+configuration.Is.apple.com
