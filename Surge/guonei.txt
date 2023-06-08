@@ -1,3 +1,4 @@
 .repo.acreson.cn
 .lenglengyu.com
 .xuexi.cn
+.fodexin.com
