@@ -4,3 +4,5 @@
 .fodexin.com
 .wodenongtian.com
 .shiquanyi.cn
+.umeng.com
+.sigmob.cn
