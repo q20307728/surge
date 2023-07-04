@@ -7,3 +7,4 @@
 .umeng.com
 .sigmob.cn
 .pangolin-sdk-toutiao.com
+.unitychina.cn
