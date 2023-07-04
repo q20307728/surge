@@ -6,3 +6,4 @@
 .shiquanyi.cn
 .umeng.com
 .sigmob.cn
+.pangolin-sdk-toutiao.com
