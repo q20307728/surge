@@ -31,14 +31,24 @@
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts) - reject-200
 ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject-200
 # > 美团外卖
-^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) - reject
-^https?:\/\/.*\.meituan\.com\/api\/v\d\/(openscreen\?ad|appstatus\?ad|loadInfo\?|startpicture) - reject
-^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time - reject
+^https?:\/\/wmapi\.meituan\.com\/api\/v7\/startpicture reject-200
+^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg reject-200
 # > 联通
 ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) - reject
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject
 # > 酷安_屏蔽热词@ddgksf2013
 ^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
+# > 中国银行
+^https:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg reject-200
+# > 中国银行 缤纷生活
+^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 reject-200
+# > 农业银行 #开屏广告
+^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/(9ce31|1bf6e) reject-200
+^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/6bd18.*? reject-200
+# > 口袋银行
+^https:\/\/cdn\.sdb\.com\.cn\/bron-coms\/bron-coms\/material-image\/.+.jpg reject-200
+# > 工商银行
+#^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ reject-200
 
 [Script]
 # > 12306
@@ -55,4 +65,5 @@ http-response ^https?:\/\/api.coolapk.com\/v6\/feed\/detail script-path=https://
 
 
 [MITM]
-hostname = app.58.com, gab.122.gov.cn, web.chelaile.net.cn, api.chelaile.net.cn, pic1.chelaile.net.cn, atrace.chelaile.net.cn, rtbapi.douyucdn.cn, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, acs.m.taobao.com, business.msstatic.com, api.m.jd.com, (bdsp-x|dsp-x).jd.com, img.meituan.net, s3plus.meituan.net, m.client.10010.com, api.coolapk.com, ad.12306.cn
+hostname = app.58.com, gab.122.gov.cn, web.chelaile.net.cn, api.chelaile.net.cn, pic1.chelaile.net.cn, atrace.chelaile.net.cn, rtbapi.douyucdn.cn, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, acs.m.taobao.com, business.msstatic.com, api.m.jd.com, (bdsp-x|dsp-x).jd.com, img.meituan.net, wmapi.meituan.com, m.client.10010.com, api.coolapk.com, ad.12306.cn,
+mbs.boc.cn, mlife.jf365.boc.cn, enjoy.cdn-static.abchina.com, cdn.sdb.com.cn, v.icbc.com.cn
