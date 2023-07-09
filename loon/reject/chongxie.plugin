@@ -37,13 +37,21 @@
 # > 联通
 ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) - reject
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject
-
+# > 酷安_屏蔽热词@ddgksf2013
+^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
 
 [Script]
 # > 12306
 http-request ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList script-path=https://github.com/ddgksf2013/Scripts/raw/master/12306.js, requires-body=true
-# > 酷安
-http-response ^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true
+# > 酷安_推广广告@ddgksf2013
+http-response ^https?:\/\/api.coolapk.com\/v6\/dataList script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true
+# > 酷安_首页广告@ddgksf2013
+http-response ^https?:\/\/api.coolapk.com\/v6\/main\/indexV8 script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true
+# > 酷安_评论广告@ddgksf2013
+http-response ^https?:\/\/api.coolapk.com\/v6\/feed\/replyList script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true
+# > 酷安_商品推广@ddgksf2013
+http-response ^https?:\/\/api.coolapk.com\/v6\/feed\/detail script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true
+
 
 
 [MITM]
