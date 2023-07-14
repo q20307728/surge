@@ -20,5 +20,9 @@ DOMAIN,img.if101.tv
 DOMAIN-SUFFIX,aptvapp.com
 DOMAIN-SUFFIX,yanaifei.tv
 DOMAIN,imap-mail.outlook.com
-DOMAIN,maxiwee.de
-DOMAIN,ginsu.dev
+DOMAIN-SUFFIX,maxiwee.de
+DOMAIN-SUFFIX,ginsu.dev
+DOMAIN-SUFFIX,ib-soft.net
+DOMAIN,r3.o.lencr.org
+DOMAIN,apt.thebigboss.org
+DOMAIN,cydia.editornah.top
