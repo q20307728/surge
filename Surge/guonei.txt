@@ -70,3 +70,8 @@ IP-CIDR,162.209.190.70/32
 itunes.com
 p21-buy.itunes.apple.com
 vip.ffzy-online6.com
+112.92.210.107/32,no-resolve
+gsa.apple.com
+120.87.140.77/32,no-resolve
+116.163.25.211/32,no-resolve
+42.7.44.143/32,no-resolve
