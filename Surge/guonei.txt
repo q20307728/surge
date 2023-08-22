@@ -82,3 +82,8 @@ gsa.apple.com
 153.0.228.166/32,no-resolve
 43.154.240.248/32,no-resolve
 220.200.129.252/32,no-resolve
+116.153.4.20/32,no-resolve
+116.153.46.146/32,no-resolve
+203.205.157.25/32,no-resolve
+140.207.122.206/32,no-resolve
+140.207.56.26/32,no-resolve
