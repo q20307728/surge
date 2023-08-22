@@ -18,3 +18,4 @@ media.havoc.app
 .digitaloceanspaces.com
 api.canister.me
 repo.chariz.com
+.gitlab.com
