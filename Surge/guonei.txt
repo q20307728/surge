@@ -71,3 +71,8 @@ p21-buy.itunes.apple.com
 vip.ffzy-online6.com
 gsa.apple.com
 applog.uc.cn
+yfamily.vercel.app
+api.ip.sb
+code.jquery.com
+.lanjie100.com
+code.jquery.com
