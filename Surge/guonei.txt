@@ -70,3 +70,4 @@ itunes.com
 p21-buy.itunes.apple.com
 vip.ffzy-online6.com
 gsa.apple.com
+203.205.157.25/32
