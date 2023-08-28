@@ -105,3 +105,5 @@ IP-CIDR,27.37.93.5/32,no-resolve
 IP-CIDR,122.13.173.230/32,no-resolve
 IP-CIDR,211.91.241.241/32,no-resolve
 DOMAIN,cdn.ynuf.aliapp.org
+IP-CIDR,122.13.173.227/32,no-resolve
+IP-CIDR,211.91.241.242/32,no-resolve
