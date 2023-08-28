@@ -94,7 +94,6 @@ IP-CIDR,211.97.84.42/32,no-resolve
 DOMAIN-SUFFIX,fengimg.com
 DOMAIN,sub3.zuomengyun.top
 DOMAIN,dingyue.cloudaccess.icu
-IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,182.124.0.205/32,no-resolve
 IP-CIDR,123.15.227.255/32,no-resolve
 IP-CIDR,121.228.80.40/32,no-resolve
