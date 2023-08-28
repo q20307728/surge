@@ -86,5 +86,9 @@ DOMAIN-SUFFIX,riotcdn.net
 DOMAIN-SUFFIX,riotgames.com
 DOMAIN-SUFFIX,wr.pvp.net
 DOMAIN,img.liangzipic.com
-IP-CIDR,123.12.214.23/32
-IP-CIDR,112.65.195.164/32
+IP-CIDR,123.12.214.23/32,no-resolve
+IP-CIDR,112.65.195.164/32,no-resolve
+IP-CIDR,36.249.92.14/32,no-resolve
+IP-CIDR,157.148.54.26/32,no-resolve
+IP-CIDR,211.97.84.42/32,no-resolve
+DOMAIN-SUFFIX,fengimg.com
