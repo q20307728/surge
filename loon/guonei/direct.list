@@ -95,3 +95,13 @@ DOMAIN-SUFFIX,fengimg.com
 DOMAIN,sub3.zuomengyun.top
 DOMAIN,dingyue.cloudaccess.icu
 IP-CIDR,8.8.8.8/32,no-resolve
+IP-CIDR,182.124.0.205/32,no-resolve
+IP-CIDR,123.15.227.255/32,no-resolve
+IP-CIDR,121.228.80.40/32,no-resolve
+IP-CIDR,221.225.60.14/32,no-resolve
+IP-CIDR,123.174.188.102/32,no-resolve
+IP-CIDR,114.239.35.232/32,no-resolve
+IP-CIDR,27.37.93.5/32,no-resolve
+IP-CIDR,122.13.173.230/32,no-resolve
+IP-CIDR,211.91.241.241/32,no-resolve
+DOMAIN,cdn.ynuf.aliapp.org
