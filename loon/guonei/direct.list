@@ -147,3 +147,4 @@ IP-CIDR,223.166.76.232/32,no-resolve
 IP-CIDR,58.255.29.169/32,no-resolve
 IP-CIDR,42.7.35.75/32,no-resolve
 DOMAIN,zz.ci
+DOMAIN,qiepian.cluod.cn
