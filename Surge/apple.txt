@@ -141,3 +141,5 @@
 .time.apple.com
 .experiments.apple.com
 .configuration.Is.apple.com
+DOMAIN,journey.pcms.apple.com
+IP-CIDR,8.8.8.8/32,no-resolve
