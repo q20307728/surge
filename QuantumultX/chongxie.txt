@@ -23,7 +23,7 @@
 
 
 # 去重后的hostname，将对以下域名进行MITM（MAN-IN-THE-MIDDLE：中间人攻击）
-hostname = api.coolapk.com, api-access.pangolin-sdk-toutiao.com, raw.githubusercontent.com, app.58.com, .+?.58cdn.com.cn, list-app-m.i4.cn, pic1.chelaile.net.cn, api.chelaile.net.cn, api.chelaile.net.cn, atrace.chelaile.net.cn, web.chelaile.net.cn, elemecdn.com, fuss10.elemecdn.com, cube.elemecdn.com, www1.elecfans.com, v.icbc.com.cn, pv.elife.icbc.com.cn, elife.icbc.com.cn, cdn.sdb.com.cn, enjoy.cdn-static.abchina.com, api.pinduoduo.com, ucmp.sf-express.com, taobao.com, api.cloud.189.cn, gw.alicdn.com, mbs.boc.cn, mlife.jf365.boc.cn, client.app.coc.10086.cn, m.client.10010.com, m1.ad.10010.com, res.mall.10010.cn,p3-be-pack-sign.pglstatp-toutiao.com
+hostname = api-access.pangolin-sdk-toutiao.com, raw.githubusercontent.com, app.58.com, .+?.58cdn.com.cn, list-app-m.i4.cn, pic1.chelaile.net.cn, api.chelaile.net.cn, api.chelaile.net.cn, atrace.chelaile.net.cn, web.chelaile.net.cn, elemecdn.com, fuss10.elemecdn.com, cube.elemecdn.com, www1.elecfans.com, v.icbc.com.cn, pv.elife.icbc.com.cn, elife.icbc.com.cn, cdn.sdb.com.cn, enjoy.cdn-static.abchina.com, api.pinduoduo.com, ucmp.sf-express.com, taobao.com, api.cloud.189.cn, gw.alicdn.com, mbs.boc.cn, mlife.jf365.boc.cn, client.app.coc.10086.cn, m.client.10010.com, m1.ad.10010.com, res.mall.10010.cn,p3-be-pack-sign.pglstatp-toutiao.com
 
 
 # >>>>>>>>>>>>>>> ✅ 0 ✅ <<<<<<<<<<<<<<
@@ -105,11 +105,7 @@ hostname = api.coolapk.com, api-access.pangolin-sdk-toutiao.com, raw.githubuserc
 ^https?:\/\/storage\.360buyimg\.com\/kepler-app url reject-img
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s640x1136_jfs\/ url reject-img
 # >>>>>>>>>>>>>>> ✅ K ✅ <<<<<<<<<<<<<<
-# > 酷安
-^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/coolapk.js
-^https?://api-access\.pangolin-sdk-toutiao\.com/api/ad/union/sdk url reject
-^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
-^http:\/\/p3-be-pack-sign\.pglstatp-toutiao\.com\/web\.business\.image url reject-dict
+
 # > 口袋银行
 ^https:\/\/cdn\.sdb\.com\.cn\/bron-coms\/bron-coms\/material-image\/.+.jpg url reject-200
 # >>>>>>>>>>>>>>> ✅ L ✅ <<<<<<<<<<<<<<
