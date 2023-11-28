@@ -584,3 +584,6 @@ USER-AGENT,qqlive4iphone*
 IP-CIDR,157.148.41.149/32,no-resolve
 IP-CIDR,116.128.170.39/32,no-resolve
 IP-CIDR,157.148.42.198/32,no-resolve
+IP-CIDR,116.128.170.39/32,no-resolve
+IP-CIDR,157.148.63.107/32,no-resolve
+IP-CIDR,36.249.84.240/32,no-resolve
