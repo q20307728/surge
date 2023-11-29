@@ -587,3 +587,7 @@ IP-CIDR,157.148.42.198/32,no-resolve
 IP-CIDR,116.128.170.39/32,no-resolve
 IP-CIDR,157.148.63.107/32,no-resolve
 IP-CIDR,36.249.84.240/32,no-resolve
+IP-CIDR,36.249.84.241/32,no-resolve
+IP-CIDR,27.44.121.245/32,no-resolve
+IP-CIDR,157.255.5.249/32,no-resolve
+IP-CIDR,140.207.176.106/32,no-resolve
