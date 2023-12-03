@@ -23,7 +23,7 @@
 
 
 # 去重后的hostname，将对以下域名进行MITM（MAN-IN-THE-MIDDLE：中间人攻击）
-hostname = api-access.pangolin-sdk-toutiao.com, raw.githubusercontent.com, app.58.com, .+?.58cdn.com.cn, list-app-m.i4.cn, pic1.chelaile.net.cn, api.chelaile.net.cn, api.chelaile.net.cn, atrace.chelaile.net.cn, web.chelaile.net.cn, elemecdn.com, fuss10.elemecdn.com, cube.elemecdn.com, www1.elecfans.com, v.icbc.com.cn, pv.elife.icbc.com.cn, elife.icbc.com.cn, cdn.sdb.com.cn, enjoy.cdn-static.abchina.com, api.pinduoduo.com, ucmp.sf-express.com, taobao.com, api.cloud.189.cn, gw.alicdn.com, mbs.boc.cn, mlife.jf365.boc.cn, client.app.coc.10086.cn, m.client.10010.com, m1.ad.10010.com, res.mall.10010.cn,p3-be-pack-sign.pglstatp-toutiao.com
+hostname = api-access.pangolin-sdk-toutiao.com, raw.githubusercontent.com, list-app-m.i4.cn, elemecdn.com, fuss10.elemecdn.com, cube.elemecdn.com, www1.elecfans.com, v.icbc.com.cn, pv.elife.icbc.com.cn, elife.icbc.com.cn, cdn.sdb.com.cn, enjoy.cdn-static.abchina.com, api.pinduoduo.com, ucmp.sf-express.com, taobao.com, api.cloud.189.cn, gw.alicdn.com, mbs.boc.cn, mlife.jf365.boc.cn, client.app.coc.10086.cn, m.client.10010.com, m1.ad.10010.com, res.mall.10010.cn,p3-be-pack-sign.pglstatp-toutiao.com
 
 
 # >>>>>>>>>>>>>>> ✅ 0 ✅ <<<<<<<<<<<<<<
@@ -42,13 +42,7 @@ hostname = api-access.pangolin-sdk-toutiao.com, raw.githubusercontent.com, app.5
 ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
 # >>>>>>>>>>>>>>> ✅ B ✅ <<<<<<<<<<<<<<
 
-# > 车来了
-^https?:\/\/pic1.chelaile.net.cn\/adv\/ url reject
-^https?:\/\/(api|atrace)\.chelaile\.net\.cn\/adpub\/ url reject
-^https?:\/\/api\.chelaile\.net\.cn\/goocity\/advert\/ url reject
-^https?:\/\/atrace\.chelaile\.net\.cn\/adpub\/ url reject-img
-^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image url reject-img
-^https?:\/\/web\.chelaile\.net\.cn\/api\/adpub\/ url reject
+
 
 # >>>>>>>>>>>>>>> ✅ D ✅ <<<<<<<<<<<<<<
 
@@ -79,54 +73,12 @@ hostname = api-access.pangolin-sdk-toutiao.com, raw.githubusercontent.com, app.5
 # >>>>>>>>>>>>>>> ✅ I ✅ <<<<<<<<<<<<<<
 # >>>>>>>>>>>>>>> ✅ J ✅ <<<<<<<<<<<<<<
 
-# > 京东
-^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/202220\/24\/21575\/134711\/625b821bE5d642d73\/77636692989bd2be\.jpg url reject
-^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/96405\/17\/28473\/168578\/625cd144E7997a990\/8233ce8a10c4e463\.jpg url reject
-^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/182114\/23\/23904\/121433\/62593c9cEd77c4519\/2e3f4c518b771094\.jpg url reject
-^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/202971\/34\/26906\/282671\/6319c862E1818d3fa\/0597464cf6bc8e2f\.jpg url reject
-^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/143222\/27\/29233\/141967\/631b1f8cE3a112e54\/d3fe0b2f9f0a9f30\.jpg url reject
-^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs url reject
-^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/197429\/22/22400\/119193\/62562ef0Eff59b4d4 url reject
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-array
-^https?://union.click.jd.com/jda? url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/jda?adblock=$2union.click.jd.com$3
-^https?://union.click.jd.com/sem.php? url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/sem.php?adblock=$2union.click.jd.com$3
-^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/(aladdin\/na\/m\/getLoadingPicture|aladdin\/na\/m\/getLoadingPicture) url reject
-^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture url reject
-^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo url reject
-^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject
-^https?:\/\/bdsp-x\.jd\.com\/adx\/ url reject
-^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts) url reject
-^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ url reject
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-200
-^https?:\/\/img\d+\.360buyimg\.com\/jddjadvertise\/ url reject
-^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/197429\/22\/22400\/119193\/62562ef0Eff59b4d4 url reject
-^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/220846\/5\/16214\/41327 url reject
-^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/202818 url reject
-^https?:\/\/storage\.360buyimg\.com\/kepler-app url reject-img
-^https?:\/\/m\.360buyimg\.com\/mobilecms\/s640x1136_jfs\/ url reject-img
+
 # >>>>>>>>>>>>>>> ✅ K ✅ <<<<<<<<<<<<<<
 
 # > 口袋银行
 ^https:\/\/cdn\.sdb\.com\.cn\/bron-coms\/bron-coms\/material-image\/.+.jpg url reject-200
 # >>>>>>>>>>>>>>> ✅ L ✅ <<<<<<<<<<<<<<
-# > 美团
-^https?:\/\/img\.meituan\.net\/(?>adunion|display|midas)\/.+?\.(gif|jpg|jpg\.webp)$ url reject-200
-^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+?\.jpg url reject-200
-^https?:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+?\.jpg\?may_covertWebp url reject-200
-^https?:\/\/s3plus\.meituan\.net\/.+?\/linglong\/ url reject
-^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002 url reject-img
-^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? url reject
-^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo\? url reject
-^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture url reject
-^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) url reject
-^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) url reject
-^https?:\/\/apimobile\.meituan\.com\/appupdate\/mach\/checkUpdate? url reject
-^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ url reject
-^https?:\/\/p\d.meituan.net\/movie\/.*?\?may_covertWebp url reject-img
-^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|mmc|wmbanner)\/ url reject
-# > 美团外卖
-^https?:\/\/wmapi\.meituan\.com\/api\/v7\/startpicture url reject-200
-^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg url reject-200
 
 # >>>>>>>>>>>>>>> ✅ N ✅ <<<<<<<<<<<<<<
 
