@@ -1,5 +1,5 @@
-#!name = 自用银行去广告
-#!desc = 过滤常用应用广告[2023/07/9]
+#!name = 自用去开屏广告
+#!desc = 过滤常用APP广告
 #!author = 🅥徐闻🅥
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/120px/RemoveAds.png
 [Rewrite]
