@@ -1,43 +1,13 @@
-#!name = 自用去广告
+#!name = 自用银行去广告
 #!desc = 过滤常用应用广告[2023/07/9]
 #!author = 🅥徐闻🅥
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/120px/RemoveAds.png
 [Rewrite]
-# >58
-^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv) - reject
-# > 12123
-^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery - reject
-# > 车来了
-^https?:\/\/web\.chelaile\.net\.cn\/api\/adpub\/ad - reject
-^https?:\/\/cdn\.\w{3}\.chelaileapp\.cn\/(api\/)?adpub - reject
-^https?:\/\/api.chelaile.net.cn\/adpub\/ - reject
-^https?:\/\/api.chelaile.net.cn\/goocity\/advert\/ - reject
-^https?:\/\/atrace.chelaile.net.cn\/adpub\/ - reject
-^https?:\/\/atrace.chelaile.net.cn\/exhibit\?&adv_image - reject
-^https?:\/\/pic1.chelaile.net.cn\/adv\/ - reject
-# > 斗鱼
-^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject
-# > 饿了麽
-^https?:\/\/elemecdn.com\/.+\/sitemap - reject
-^https?:\/\/fuss10.elemecdn.com\/.+\/w\/640\/h\/\d{3,4} - reject
-^https?:\/\/fuss10.elemecdn.com\/.+\/w\/750\/h\/\d{3,4} - reject
-^https?:\/\/fuss10.elemecdn.com\/.+.mp4 - reject
-^https?:\/\/www1.elecfans.com\/www\/delivery\/ - reject
-# > 飞猪
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.allresource - reject
-# > 虎牙
-^https?:\/\/business\.msstatic\.com\/advertiser\/material - reject
-# > 京东
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts) - reject-200
-^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject-200
-# > 美团外卖
-^https?:\/\/wmapi\.meituan\.com\/api\/v7\/startpicture reject-200
-^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg reject-200
+
 # > 联通
 ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) - reject
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject
-# > 酷安_屏蔽热词@ddgksf2013
-^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
+
 # > 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg reject-200
 # > 中国银行 缤纷生活
@@ -50,14 +20,7 @@
 # > 工商银行
 #^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ reject-200
 
-[Script]
-# > 12306
-http-request ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList script-path=https://github.com/ddgksf2013/Scripts/raw/master/12306.js, requires-body=true
-
-# > 酷安
-http-response ^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true
-
 
 [MITM]
-hostname = app.58.com, gab.122.gov.cn, web.chelaile.net.cn, api.chelaile.net.cn, pic1.chelaile.net.cn, atrace.chelaile.net.cn, rtbapi.douyucdn.cn, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, acs.m.taobao.com, business.msstatic.com, api.m.jd.com, (bdsp-x|dsp-x).jd.com, img.meituan.net, wmapi.meituan.com, m.client.10010.com, api.coolapk.com, ad.12306.cn,
+hostname = m.client.10010.com, 
 mbs.boc.cn, mlife.jf365.boc.cn, enjoy.cdn-static.abchina.com, cdn.sdb.com.cn, v.icbc.com.cn
