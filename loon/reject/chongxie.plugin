@@ -22,5 +22,4 @@
 
 
 [MITM]
-hostname = m.client.10010.com, 
-mbs.boc.cn, mlife.jf365.boc.cn, enjoy.cdn-static.abchina.com, cdn.sdb.com.cn, v.icbc.com.cn
+hostname = m.client.10010.com, mbs.boc.cn, mlife.jf365.boc.cn, enjoy.cdn-static.abchina.com, cdn.sdb.com.cn, v.icbc.com.cn
