@@ -16,7 +16,9 @@
 ^https:\/\/cdn\.sdb\.com\.cn\/bron-coms\/bron-coms\/material-image\/.+.jpg reject-200
 # > 工商银行
 #^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ reject-200
-
+# > 微信小程序底部广告
+^https:\/\/mp\.weixin\.qq\.com\/mp\/masonryfeed\? reject-dict
+^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad\? reject-dict
 
 [MITM]
-hostname = mbs.boc.cn, mlife.jf365.boc.cn, enjoy.cdn-static.abchina.com, cdn.sdb.com.cn, v.icbc.com.cn
+hostname = mbs.boc.cn, mlife.jf365.boc.cn, enjoy.cdn-static.abchina.com, cdn.sdb.com.cn, v.icbc.com.cn,mp.weixin.qq.com
