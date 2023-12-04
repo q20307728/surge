@@ -38,5 +38,4 @@
 ^https?:\/\/fc-video\.cdn\.bcebos\.com url reject
 ^https?:\/\/rp\.hpplay\.cn\/logouts url reject
 [MITM]
-hostname = mbs.boc.cn, mlife.jf365.boc.cn, enjoy.cdn-static.abchina.com, cdn.sdb.com.cn, v.icbc.com.cn,mp.weixin.qq.com,pan.baidu.com
-,ndstatic.cdn.bcebos.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com,update.pan.baidu.com,fc-video.cdn.bcebos.com,rp.hpplay.cn
+hostname = mbs.boc.cn, mlife.jf365.boc.cn, enjoy.cdn-static.abchina.com, cdn.sdb.com.cn, v.icbc.com.cn,mp.weixin.qq.com,pan.baidu.com,ndstatic.cdn.bcebos.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com,update.pan.baidu.com,fc-video.cdn.bcebos.com,rp.hpplay.cn
