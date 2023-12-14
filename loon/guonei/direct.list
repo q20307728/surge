@@ -181,3 +181,9 @@ DOMAIN,svip.picffzy.com
 DOMAIN,jimg001.com
 DOMAIN,3703801381.qnqcdn.net
 DOMAIN,api.gquaxhce.com
+IP-CIDR,221.194.131.161/32,no-resolve
+IP-CIDR,211.95.133.216/32,no-resolve
+IP-CIDR,112.90.43.182/32,no-resolve
+IP-CIDR,163.179.228.99/32,no-resolve
+IP-CIDR,122.191.170.145/32,no-resolve
+IP-CIDR,112.90.90.167/32,no-resolve
