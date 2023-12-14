@@ -187,3 +187,5 @@ IP-CIDR,112.90.43.182/32,no-resolve
 IP-CIDR,163.179.228.99/32,no-resolve
 IP-CIDR,122.191.170.145/32,no-resolve
 IP-CIDR,112.90.90.167/32,no-resolve
+IP-CIDR,157.255.4.162/32,no-resolve
+DOMAIN,v6-fq-tts.fqnovelvod.com
