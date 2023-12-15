@@ -216,3 +216,17 @@ IP-CIDR,123.129.201.220/32,no-resolve
 IP-CIDR,140.207.56.47/32,no-resolve
 IP-CIDR,157.148.54.26/32,no-resolve
 IP-CIDR,202.97.231.110/32,no-resolve
+IP-CIDR,36.249.84.238/32,no-resolve
+IP-CIDR,112.132.36.216/32,no-resolve
+IP-CIDR,27.44.121.148/32,no-resolve
+IP-CIDR,27.44.121.233/32,no-resolve
+IP-CIDR,112.122.156.207/32,no-resolve
+IP-CIDR,112.90.90.167/32,no-resolve
+IP-CIDR,121.11.195.161/32,no-resolve
+IP-CIDR,211.95.133.216/32,no-resolve
+IP-CIDR,112.132.225.222/32,no-resolve
+IP-CIDR,112.132.39.143/32,no-resolve
+IP-CIDR,182.50.8.110/32,no-resolve
+IP-CIDR,116.130.229.186/32,no-resolve
+IP-CIDR,112.132.39.215/32,no-resolve
+DOMAIN,v3-fq-tts.fqnovelvod.com
