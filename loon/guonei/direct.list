@@ -250,3 +250,7 @@ IP-CIDR,153.37.100.246/32,no-resolve
 IP-CIDR,157.148.57.19/32,no-resolve
 IP-CIDR,153.37.100.248/32,no-resolve
 IP-CIDR,157.148.57.20/32,no-resolve
+IP-CIDR,163.179.228.103/32,no-resolve
+IP-CIDR,112.132.225.222/32,no-resolve
+IP-CIDR,182.50.8.99/32,no-resolve
+IP-CIDR,112.90.90.167/32,no-resolve
