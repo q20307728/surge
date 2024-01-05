@@ -1,2 +1,34 @@
 payload:
   - DOMAIN,music.youtube.com
+  - DOMAIN-SUFFIX,bitwarden.com
+  - DOMAIN,sparkdev.me
+  - DOMAIN,limneos.net
+  - DOMAIN,chariz.com
+  - DOMAIN,havoc.app
+  - DOMAIN,featuredpage.getsileo.app
+  - DOMAIN,hacx.org
+  - DOMAIN,cydiageek.yourepo.com
+  - DOMAIN,apt.wxhbts.pro
+  - DOMAIN,repo.cypwn.xyz
+  - DOMAIN,tigisoftware.com
+  - DOMAIN,byg.iosios.net
+  - DOMAIN,apt.geometricsoftware.se
+  - DOMAIN,repo.anamy.gay
+  - DOMAIN,byg.iosios.net
+  - DOMAIN,media.havoc.app
+  - DOMAIN-SUFFIX,maxiwee.de
+  - DOMAIN-SUFFIX,digitaloceanspaces.com
+  - DOMAIN,api.canister.me
+  - DOMAIN,repo.chariz.com
+  - DOMAIN,www.yourepo.com
+  - DOMAIN,repo.snailovet.com
+  - DOMAIN,yfamily.vercel.app
+  - DOMAIN,heyeased.weebly.com
+  - DOMAIN,ifconfig.me
+  - DOMAIN,iosign.tk
+  - DOMAIN,ellekit.space
+  - DOMAIN,s.magsrv.com
+  - DOMAIN,gobob-yasl.mushroomtrack.com
+  - DOMAIN,a.shukriya90.com
+  - DOMAIN,creaturecoding.com
+  - DOMAIN,repo.anthopak.dev
