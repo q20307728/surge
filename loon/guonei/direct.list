@@ -253,3 +253,11 @@ IP-CIDR,163.179.228.103/32,no-resolve
 IP-CIDR,112.132.225.222/32,no-resolve
 IP-CIDR,182.50.8.99/32,no-resolve
 IP-CIDR,112.90.90.167/32,no-resolve
+DOMAIN,statics.123pan.com
+DOMAIN,bdse.123pan.cn
+DOMAIN,cf.aliyun.com
+DOMAIN,lypan.cn
+DOMAIN,ocsp.digicert.com
+DOMAIN,macked.app
+DOMAIN,img.lzzyimg.com
+DOMAIN,time.apple.com
