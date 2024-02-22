@@ -20,5 +20,8 @@
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/masonryfeed\? reject-dict
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad\? reject-dict
 
+[rewrite_local]
+# > 懒人听书vip
+^https?:\/\/(shapi|gzapi).mting.info\/yyting\/(usercenter\/ThirdPartyLogin|userclient\/ClientGetUserInfo).action url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/lrts.js
 [MITM]
-hostname = mbs.boc.cn, mlife.jf365.boc.cn, enjoy.cdn-static.abchina.com, cdn.sdb.com.cn, v.icbc.com.cn,mp.weixin.qq.com
+hostname = mbs.boc.cn, mlife.jf365.boc.cn, enjoy.cdn-static.abchina.com, cdn.sdb.com.cn, v.icbc.com.cn,mp.weixin.qq.com,gzapi.mting.info,shapi.mting.info
