@@ -58,3 +58,6 @@ IP-ASN,14061
 IP-ASN,20473
 IP-CIDR,24.199.123.28/32
 IP-CIDR,64.23.132.171/32
+DOMAIN,sapphire.bingviz.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,microsoft.com
